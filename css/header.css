@@ -1,9 +1,7 @@
 header{
     position: fixed;
-
     display: flex;
     flex-direction: column;
-
     color: white;
     font-family: 'VT323', monospace;
     width: 100%;
@@ -47,9 +45,6 @@ a { color: white;
         gap: 40px;
         transition: all 0.8s;
     }
-    .people{
-        padding-left: 80px;
-    }
 }   
 
 @media (max-width: 1423px){
@@ -57,32 +52,5 @@ a { color: white;
         font-size: 30px;
         gap: 40px;
     }
-    .people{
-        padding-left: 80px;
-    }
 }   
 
-@media (max-width: 1290px){
-    .pnew{
-        font-size: 0px;
-        gap: 0px;
-        display: none;
-        transition: all 0.1s;
-    }
-    .people{
-        padding-left: 80px;
-    }
-}   
-
-@media (max-width: 1290px){
-    .logo{
-        height: 150px;
-    }
-}
-
-@media (max-width: 360px){
-    .logo{
-        height: 100px;
-        padding-left: 10px;
-    }
-}
